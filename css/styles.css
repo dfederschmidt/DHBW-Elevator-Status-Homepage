@@ -75,6 +75,9 @@ ul {
 .elevators p {
     text-align: center;
     width: 100%;
+
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .elevator:hover, .broken-elevator:hover {
