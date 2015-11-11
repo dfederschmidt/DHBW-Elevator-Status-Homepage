@@ -32,7 +32,9 @@ p {
     margin: auto;
     line-height: 35px
 }
-
+ul {
+  list-style-type: none;
+}
 .down-arrow {
     font-size: 120px;
     margin-top: 90px;
