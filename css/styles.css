@@ -53,18 +53,35 @@ ul {
     height: 300px;
 }
 
+.broken-elevator {
+    width: 100px;
+    margin-right: auto;
+    margin-left: 0;
+}
+
 .elevator {
+    width: 100px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.elevators {
     text-align: center;
     cursor: pointer;
-    width: 140px;
+    width: 150px;
     margin: auto;
 }
 
-.elevator:hover {
+.elevators p {
+    text-align: center;
+    width: 100%;
+}
+
+.elevator:hover, .broken-elevator:hover {
     opacity: 0.7;
 }
 
-.elevator svg {
+.elevator svg, .broken-elevator svg {
     width: 40px;
     height: 40px;
     display: block;
