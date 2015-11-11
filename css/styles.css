@@ -97,3 +97,11 @@ iframe {
     text-decoration: none;
     color: #0C1F31;
 }
+
+#countdown {
+  font-size: 30px;
+}
+.countdown-dialog {
+  margin-top: 100px;
+  margin-bottom: 0px;
+}

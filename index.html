@@ -46,6 +46,36 @@
         <div class="down-arrow">&#x25BC;</div>
         <p><img src="img/aufzug9.jpg" alt=""></p>
 
+
+        <script>
+        var start = new Date('11/5/2015 10:1 AM');
+
+            var _second = 1000;
+            var _minute = _second * 60;
+            var _hour = _minute * 60;
+            var _day = _hour * 24;
+            var timer;
+
+            function showProgress() {
+                var now = new Date();
+                var distance =  now - start;
+
+                var days = Math.floor(distance / _day);
+                var hours = Math.floor((distance % _day) / _hour);
+                var minutes = Math.floor((distance % _hour) / _minute);
+                var seconds = Math.floor((distance % _minute) / _second);
+
+                document.getElementById('countdown').innerHTML = days + ' Tage, ';
+                document.getElementById('countdown').innerHTML += hours + ' Stunden, ';
+                document.getElementById('countdown').innerHTML += minutes + ' Minuten, ';
+                document.getElementById('countdown').innerHTML += seconds + ' Sekunden';
+            }
+
+            timer = setInterval(showProgress, 1000);
+        </script>
+                <p class="countdown-dialog"> Solange wurde der Aufzug nicht repariert: </p>
+                <p><div id="countdown"></div> </p>
+
         <div class="footer">
             <div class="do-the-thing">
                 <div class="elevator">
@@ -57,8 +87,6 @@
                 </div>
             </div>
         </div>
-
-
 
         <script>
 
