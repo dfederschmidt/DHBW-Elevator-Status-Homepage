@@ -1,0 +1,97 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    color: #0C1F31;
+    background: #fff;
+    font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    margin-top: 120px;
+}
+
+p {
+    width: 900px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: auto;
+    line-height: 35px
+}
+
+.down-arrow {
+    font-size: 120px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-shadow: 0px -20px #0C1F31, 0px 0px #C33329;
+    color: rgba(0,0,0,0);
+
+    -webkit-transform: scaleY(0.8);
+    -moz-transform: scaleY(0.8);
+    transform: scaleY(0.8);
+}
+
+.footer {
+    box-sizing: border-box;
+    padding-top: 190px;
+    height: 300px;
+}
+
+.elevator {
+    text-align: center;
+    cursor: pointer;
+    width: 140px;
+    margin: auto;
+}
+
+.elevator:hover {
+    opacity: 0.7;
+}
+
+.elevator svg {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.github-link {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.links {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.links a, iframe {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+iframe {
+    margin-bottom: -3px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #0C1F31;
+}
