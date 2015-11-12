@@ -11,6 +11,9 @@ body {
     font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: center;
 }
+img {
+    max-width: 1000px;
+}
 
 .wrapper {
     width: 900px;
@@ -113,7 +116,7 @@ iframe {
     margin-bottom: -3px;
 }
 
-.links a {
+.links a, a.popup {
     text-decoration: none;
     color: #0C1F31;
 }
