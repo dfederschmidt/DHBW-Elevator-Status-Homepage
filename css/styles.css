@@ -125,3 +125,8 @@ iframe {
   margin-top: 100px;
   margin-bottom: 0px;
 }
+
+img {
+  max-width: 640px;
+  max-height: 640px;
+}
