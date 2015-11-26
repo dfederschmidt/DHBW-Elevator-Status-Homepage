@@ -134,3 +134,7 @@ img {
   max-width: 640px;
   max-height: 640px;
 }
+
+#elevator-status{
+    margin-top: 20px;
+}
